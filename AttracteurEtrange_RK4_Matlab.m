@@ -1,10 +1,10 @@
 clc; clear all;
 
 %% Lorenz
-sig=10; bet=8/3 ; rho=28;
-fx=@(t,x,y,z) sig*(y-x);
-fy=@(t,x,y,z) rho*x-y-x*z;
-fz=@(t,x,y,z) x*y-bet*z;
+% sig=10; bet=8/3 ; rho=28;
+% fx=@(t,x,y,z) sig*(y-x);
+% fy=@(t,x,y,z) rho*x-y-x*z;
+% fz=@(t,x,y,z) x*y-bet*z;
 
 %% Rossler
 a=0.2; b=0.2 ; c=5.7;
