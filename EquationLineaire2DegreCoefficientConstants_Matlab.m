@@ -1,6 +1,6 @@
 clc; clear all;
 
-%% Lorenz
+%% Equation du second degre
 a=0; Wo=1 ; A=0 ; W=1;
 f1=@(t,x1,x2) x2;
 f2=@(t,x1,x2) -a*x2-Wo^2*x1+A*cos(W*t);
